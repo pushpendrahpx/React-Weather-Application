@@ -11,7 +11,11 @@ class App extends Component {
 
     this.state = {
          API_KEY:'d32f6da459a662428a1d39144b8f0670',
-         weather:{}
+         weather:{
+           main: {
+             temp: ""
+           }
+         }
     }
 
   }
